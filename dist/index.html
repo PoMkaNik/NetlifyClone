@@ -9,20 +9,26 @@
   </head>
   <body class="font-sans leading-tight">
     <header class="bg-gray-900">
-      <div class="container px-8 mx-auto">
+      <div class="container px-6 mx-auto">
         <!-- top section -->
         <div
-          class="flex items-center justify-between py-4 border-b-2 border-gray-500"
+          class="flex items-start justify-between pt-4 pb-2 -mx-3 border-b-2 border-gray-500 md:items-center"
         >
-          <!-- left rapt -->
-          <div class="flex items-center">
+          <!-- left part -->
+          <div
+            class="flex flex-wrap items-center min-w-0 text-xl antialiased font-semibold"
+          >
             <!-- logo -->
-            <img class="w-12 h-12 mr-2" src="img/logomark.png" alt="logo" />
+            <img
+              class="w-12 h-12 mb-2 mr-2"
+              src="img/logomark.png"
+              alt="logo"
+            />
             <!-- != logo -->
-            <div class="flex text-xl antialiased font-semibold">
+            <div class="-mx-2 sm:mx-0">
               <a
                 href="#"
-                class="inline-flex items-center px-2 py-1 text-gray-400 rounded hover:text-white hover:bg-gray-300 hover:bg-opacity-20"
+                class="inline-flex items-center px-2 py-1 mb-2 text-gray-400 rounded whitespace-nowrap hover:text-white hover:bg-gray-300 hover:bg-opacity-20"
               >
                 <span>John Doe</span>
                 <svg
@@ -39,24 +45,117 @@
               </a>
               <a
                 href="#"
-                class="px-2 py-1 text-white rounded hover:bg-gray-300 hover:bg-opacity-20"
+                class="px-2 py-1 mb-2 text-white rounded whitespace-nowrap hover:bg-gray-300 hover:bg-opacity-20"
                 >elated-stonebraker-70896a</a
               >
             </div>
           </div>
-          <!-- != left rapt -->
+          <!-- != left part -->
           <!-- right part -->
-          <div>
-            <img
-              class="block w-10 h-10 border-2 border-gray-500 rounded-full"
-              src="img/avatar_2.png"
-              alt="user-photo"
-            />
+          <div class="flex items-center flex-shrink-0 justify-items-end">
+            <!-- bell icon -->
+            <button>
+              <svg
+                class="w-6 h-6 text-gray-400 hover:text-white"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zm0 16a3 3 0 01-3-3h6a3 3 0 01-3 3z"
+                />
+              </svg>
+            </button>
+            <!-- != bell icon -->
+            <!-- support icon -->
+            <button>
+              <svg
+                class="w-6 h-6 ml-6 text-gray-400 hover:text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
+                />
+              </svg>
+            </button>
+            <!-- != support icon -->
+            <!-- user avatar -->
+            <button>
+              <img
+                class="block w-10 h-10 ml-6 border-2 border-gray-500 rounded-full hover:border-white"
+                src="img/avatar_2.png"
+                alt="user-photo"
+              />
+            </button>
+            <!-- != user avatar -->
           </div>
           <!-- != right part -->
         </div>
         <!-- != top section -->
+        <!-- top navigation -->
+        <nav
+          class="flex flex-wrap items-center py-2 -mx-5 antialiased font-semibold"
+        >
+          <a
+            href="#"
+            class="px-2 py-2 mr-2 text-gray-400 rounded hover:bg-gray-300 hover:bg-opacity-20 hover:text-white"
+            >Site overview</a
+          >
+          <a
+            href="#"
+            class="px-2 py-2 mr-2 text-gray-400 rounded hover:bg-gray-300 hover:bg-opacity-20 hover:text-white"
+            >Deploys</a
+          >
+          <a
+            href="#"
+            class="px-2 py-2 mr-2 text-gray-400 rounded hover:bg-gray-300 hover:bg-opacity-20 hover:text-white"
+            >Plugins</a
+          >
+          <a
+            href="#"
+            class="px-2 py-2 mr-2 text-gray-400 rounded hover:bg-gray-300 hover:bg-opacity-20 hover:text-white"
+            >Functions</a
+          >
+          <a
+            href="#"
+            class="px-2 py-2 mr-2 text-gray-400 rounded hover:bg-gray-300 hover:bg-opacity-20 hover:text-white"
+            >Identity</a
+          >
+          <a
+            href="#"
+            class="px-2 py-2 mr-2 text-gray-400 rounded hover:bg-gray-300 hover:bg-opacity-20 hover:text-white"
+            >Forms</a
+          >
+          <a
+            href="#"
+            class="px-2 py-2 mr-2 text-gray-400 rounded hover:bg-gray-300 hover:bg-opacity-20 hover:text-white"
+            >Large Media</a
+          >
+          <a
+            href="#"
+            class="px-2 py-2 mr-2 text-gray-400 rounded hover:bg-gray-300 hover:bg-opacity-20 hover:text-white"
+            >Split Testing</a
+          >
+          <a
+            href="#"
+            class="px-2 py-2 mr-2 text-gray-400 rounded hover:bg-gray-300 hover:bg-opacity-20 hover:text-white"
+            >Analytics</a
+          >
+          <a
+            href="#"
+            class="px-2 py-2 mr-2 text-white rounded hover:bg-gray-300 hover:bg-opacity-20"
+            >Site settings</a
+          >
+        </nav>
+        <!-- != top navigation -->
       </div>
     </header>
+    <!-- main content -->
+    <main></main>
+    <!-- != main content -->
   </body>
 </html>
