@@ -838,11 +838,6 @@ video {
   margin-right: -1.5rem;
 }
 
-.-mx-9 {
-  margin-left: -2.25rem;
-  margin-right: -2.25rem;
-}
-
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -917,6 +912,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .p-6 {
@@ -1219,9 +1218,8 @@ video {
     align-items: center;
   }
 
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
+  .md\:ml-6 {
+    margin-left: 1.5rem;
   }
 
   .md\:w-80 {

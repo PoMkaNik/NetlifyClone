@@ -7,7 +7,9 @@
 
     <title>Netlify Clone</title>
   </head>
-  <body class="font-sans leading-tight text-gray-900 bg-green-50 bg-opacity-40">
+  <body
+    class="overflow-x-hidden font-sans leading-tight text-gray-900 bg-green-50 bg-opacity-40"
+  >
     <header class="pb-32 bg-black">
       <div class="container px-6 mx-auto">
         <!-- top section -->
@@ -157,8 +159,8 @@
     </header>
     <!-- main content -->
     <main class="container px-6 mx-auto mb-24 -mt-24">
+      <!-- card -->
       <div class="mb-12">
-        <!-- card -->
         <div
           class="flex items-center justify-between p-6 -mx-3 bg-white rounded-lg shadow lg:max-w-2xl"
         >
@@ -206,12 +208,11 @@
           </div>
           <!-- != card img -->
         </div>
-        <!-- != card -->
       </div>
-      <div class="flex flex-wrap -mx-9">
+      <!-- != card -->
+      <div class="flex flex-wrap -mx-3">
         <!-- left-col -->
-        <div class="relative flex-shrink-0 w-full px-6 mb-8 md:w-80">
-          <!-- <div class="sticky inset-y-0"> -->
+        <div class="relative flex-shrink-0 w-full mb-8 md:w-80">
           <div class="sticky inset-y-0 pt-6 -mt-6">
             <div class="overflow-hidden bg-white border rounded">
               <div class="border-b">
@@ -303,12 +304,11 @@
                 </a>
               </div>
             </div>
-            <!-- </div> -->
           </div>
         </div>
         <!-- != left-col -->
         <!-- right-col -->
-        <div class="flex-1 px-6 md:px-0">
+        <div class="flex-1 md:ml-6">
           <!-- domains section -->
           <!-- header -->
           <div>
@@ -338,7 +338,9 @@
               <!-- list of domains -->
               <ul class="mb-6">
                 <!-- first item -->
-                <span class="flex items-center justify-between px-6 py-4 -mx-6">
+                <span
+                  class="flex flex-wrap items-center justify-between px-6 py-4 -mx-6"
+                >
                   <li
                     class="font-semibold text-green-700 list-disc list-inside"
                   >
@@ -375,7 +377,7 @@
                 <!-- != first item -->
                 <!-- second item -->
                 <span
-                  class="flex items-center justify-between px-6 py-4 -mx-6 bg-gray-50"
+                  class="flex flex-wrap items-center justify-between px-6 py-4 -mx-6 bg-gray-50"
                 >
                   <li
                     class="font-semibold text-green-700 list-disc list-inside"
@@ -391,7 +393,7 @@
                       </p>
                     </span>
                   </li>
-                  <span class="flex items-center">
+                  <span class="flex items-center ml-6">
                     <a
                       href="#"
                       class="inline-block px-1 text-sm font-bold text-white bg-green-700 rounded-md"
@@ -543,7 +545,7 @@
                 class="font-bold text-green-700 hover:underline hover:text-gray-900"
                 >Donate to Let’s Encrypt</a
               >
-              <div class="mt-8">
+              <div class="flex mt-8">
                 <button
                   class="px-4 py-2 font-semibold text-gray-900 bg-gray-200 rounded hover:bg-green-100"
                 >
